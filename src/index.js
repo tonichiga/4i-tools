@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.constants = exports.detectPlatform = exports.detectBrowser = exports.iOS = exports.validations = void 0;
+exports.tools = exports.constants = exports.detectPlatform = exports.detectBrowser = exports.iOS = exports.validations = void 0;
 require("./hooks");
 require("./components");
 var validations_1 = require("./shared/validations");
@@ -16,3 +16,5 @@ var detect_platform_2 = require("./shared/detect-platform");
 Object.defineProperty(exports, "detectPlatform", { enumerable: true, get: function () { return __importDefault(detect_platform_2).default; } });
 var constants_1 = require("./shared/constants");
 Object.defineProperty(exports, "constants", { enumerable: true, get: function () { return __importDefault(constants_1).default; } });
+var tools_1 = require("./tools");
+Object.defineProperty(exports, "tools", { enumerable: true, get: function () { return __importDefault(tools_1).default; } });
